@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="kr">  
+<head>
+    <meta charset="utf-8">
+    <title>practice3</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>성별</th>
+        <th>학년</th>
+        <th>이름</th>
+    </tr>
+    <tr>
+        <td>남</td>
+        <td>3</td>
+        <td>도일</td>
+    </tr>
+    <tr>
+        <td>여</td>
+        <td>3</td>
+        <td>민지</td> 
+    </tr>
+</table>
+
+<table>
+    <tr>
+    <th>성별</th>
+    <td>남</td>
+    <td>여</td>
+    </tr>
+    <tr>
+        <th>학년</th>
+        <td colspan="2">3</td>
+    </tr>
+*rowspan="숫자"
+숫자만큼 셀이 행을 점유
+*colspan="숫자"
+숫자만큼 셀이 열을 점유
+    <tr>
+        <th>이름</th>
+        <td>도일</td>
+        <td>민지</td>
+    </tr>
+</table>
+
+<h3>장바구니</h3>
+<ul>
+    <li>우유</li>
+    <li>계란</li>
+    <li>휴지</li>
+</ul>
+
+<h3>to-do list</h3>
+<ol start="3">
+    <li>강의듣기</li>
+    <li>운동가기</li>
+    <ul>
+        <li>벨리댄스</li>
+        <li>맨손운동</li>
+    </ul>
+    <li>과제하기</li>
+</ol>
+
+<ol type="I">
+    <li value="3">강의듣기</li>
+    <li value="5">운동가기</li>
+    <ul>
+        <li>벨리댄스</li>
+        <li>맨손운동</li>
+    </ul>
+    <li>과제하기</li>
+</ol>
+
+<br>
+<ol>태그 : 
+    start="숫자" : 리스트가 시작하는 숫자를 정함
+    type="문자" : 순서를 시작하는 문자를 정함
+    reversed : 순서를 반대로 시작. 다른 키와 달리 key만 써서 사용.
+
+<li>태그 :
+    value="숫자" : 해당 리스트 아이템의 번호 지정
+
+</body>
+</html>
